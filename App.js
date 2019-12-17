@@ -16,7 +16,7 @@ class VoiceTest extends Component {
     end: '',
     started: '',
     results: [],
-    partialResults: [],
+    partialResults: [], // to store final output
     msg1 : '',
     msg2:'',
     input1:'',
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
 
 
 
-
+// main for text chatbot.
 
 class main extends React.Component{
 
@@ -398,5 +398,5 @@ class main extends React.Component{
   
   export default VoiceTest;
 
-
+// export main for text chatbot and VoiceTest for voice chatbot
 
