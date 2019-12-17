@@ -43,12 +43,12 @@ class VoiceTest extends Component {
   componentDidMount() {
     Dialogflow_V2.setConfiguration(
       // dialogflowConfig.client_email,
-     "dialogflow-mbexif@hackathon-jjefun.iam.gserviceaccount.com",
+     "--->> CLient email <<---",
       // dialogflowConfig.private_key,
-    "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbiGzCKZb5EqEU\nhFHVMTNXBVuryj3Tl2dxg/e1pY1YoTvxgOjc9kBzrchw4h+yAaYxN35Jgw/6eFw9\nl58dkCNizEvhFAeFNxLePmv7MkLOqo0+y4WkQ4sRjFHsbfwamzgmE10kcd5gEzgh\nW2J04DIeE1jBWlDLfmSFFmCgEPrTZRqpEWVxzJMdNcOeZ/dsR58a2Ceocib9T4Qu\nQkknn2j78GBSc6nhbaMpMwhl2pf0BLtz9HqBET0EZdeZb8O9CwPyE4CBqKOxsFQI\nDjhdek1vJw78ocKskf1WaZKtVcJ2ctS9k1kI1QWzBWi2mZySZKODDBzAtgt2QvXb\nhGqngWI5AgMBAAECggEACN2LRihaTlrUJ56JVHfybWZME6sCO1V+/1dM4qhvGxVr\nH4oCaAvyFzR9JqExwPqZPMho1eylnEqN2mHmsnxZOs/qajToxyvYcUz+3NZ52rE0\nrNoYs+++Abp+Lh3/Qzl3TMMAQlduhh2N6SZGMAHuxtv7/ADwSCt66+H3CyJsaAAh\n0ZBF7H7+wogGHwj/p5rTAfpJpeOvv0kO7p5RZbwbcfIoF9pp58uaeCsOHMV24f3d\n+Gx0ARUrN33P+bgIqGcTSKgSpqybrB528mlJUWZOfAaAE0bYa42UPrRcWUIHQkxs\nTa79D8UsWOpxU32QJVZkc62HFDPW917iurwM1jFX5QKBgQD4MXl78VRbTIQ/jj9I\nrXFgixsHjLYz4yPp/rN0sA/KyBEm+AGZjEQ6rggSc+qdONeOQeEwR0ILi03TmkDX\npIi8D0oF7sSzQ8JWLnQwovDFqnr6BGRm8frjYUiGngbKFMeB+3um2GO5LlSKqDS5\nFFVMrvXh9N75+uWvwm3PPmiWXQKBgQDicCsutY6kcFD7cc2DhaHQkW9oddIOE3l8\n7KdwENndJs/VFdDnvi8QuNyyRJ3h4E3ZqqehS0rbGFiseosf3iSY7AOnyV0fYI9P\n7ZX2J4nGew4jhEMHtsDgGkM6OFVP+EQUdniUAlQn+HR0BBptQGAtG4XWaw4VGM/1\nvswmx+XFjQKBgGPBVue3HsW3Ymw9Gzh15dz87DdDmjQOtm+lXLGo1iAV+7bi9Zmm\npAHF0x6/kmvw3cqitgT2jxgevIAxPqCt0/tqVcE+r7axpFmJQFAQHaAFHnqA623p\nEoLzpffdajMs2OdokdGEpchXU8mLQ+2ju4kfxVo1Vq245zqWdhZXKihNAoGAJiz1\nCs3vO4f4DzxTgq3/5vLuDnV2sYrU+5vGat1cba2CcpFYBAoLU01nX+Kzn4Y6ec0M\nr+PKvf9vy7xpQjkogGOiBiKrwYN9BeOvWa22y7CpZJGC34UPJXkoBmPC9lWL3MtQ\nbtuppod70qdycSLeVByExu6LlED3pp3BO3SOJ20CgYEA6zFRRuGxtBM4c9UOvps4\ntGTc1cDO7NzYlhbR6TASG+oNjy3veyaUb8EZyuc+3m+9o2lwkqnIJf5AG4WWDrU2\nYfwCwqo+ceqqjePiAoHCwUZvfZxdVbkGze7juZGJWenOrV7gnBm9DiwqOhdpimR0\n246FofV121rYnEEx4cuxEpA=\n-----END PRIVATE KEY-----\n",
+    "--->> YOUR API KEY <<---"
       Dialogflow_V2.LANG_ENGLISH_US,
       // dialogflowConfig.project_id
-      "hackathon-jjefun",
+      "Project-id",
     );
   }
 
